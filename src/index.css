@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+	background: #fffd;
+}
+main{
+	margin: auto;
+	padding: 20px;
+	max-width: 1024px;
+}
+button, input[type=submit]{
+	background-color: #1D88E5;
+	color: #fff;
+	font-weight: bolder;
+	padding: 10px;
+	border:none;
+	border-radius: 5px;
+	margin: 10px;
+	cursor: pointer;
+}
+button:hover,input[type=submit]{
+	opacity: 0.8;
+}
+input[type=search],input[type=text]{
+	outline: 0;
+	border:none;
+	border-left-radius: 3px;
+	border-bottom: 2px solid #1D88E5;
+	padding: 10px;
+	color: 333;
+	width: 80%;
 }

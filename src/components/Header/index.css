@@ -1,0 +1,25 @@
+
+header{
+	background: #1D88E5;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding:20px;
+	margin-bottom: 20px;
+}
+header ul li{
+	list-style: none;
+	display: inline;
+}
+header ul li a{
+	color: #ddff;
+	margin: 0px 15px;
+	font-weight:500;
+}
+header ul li a:hover{
+	color: #fff;
+}
